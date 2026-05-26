@@ -1,0 +1,213 @@
+{
+  "config": {
+    "hostName": "Gyanankur",
+    "title": "What Do You Really Think?",
+    "subtitle": "Be honest… well, mostly honest.",
+    "playLabel": "Play",
+    "totalRounds": 8
+  },
+  "questions": [
+    {
+      "id": "q1",
+      "text": "How do you think Gyanankur is — a good person or a bad person?",
+      "emoji": "😇",
+      "style": "binary",
+      "options": [
+        {
+          "id": "good",
+          "label": "Good"
+        },
+        {
+          "id": "bad",
+          "label": "Bad",
+          "evasive": true
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "Would you trust Gyanankur with your secrets?",
+      "emoji": "🤫",
+      "style": "binary",
+      "options": [
+        {
+          "id": "yes",
+          "label": "Yes"
+        },
+        {
+          "id": "no",
+          "label": "No",
+          "evasive": true
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "Is Gyanankur fun to hang out with?",
+      "emoji": "🎉",
+      "style": "binary",
+      "options": [
+        {
+          "id": "yes",
+          "label": "Yes"
+        },
+        {
+          "id": "no",
+          "label": "No",
+          "evasive": true
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "Would you want Gyanankur on your team?",
+      "emoji": "🤝",
+      "style": "binary",
+      "options": [
+        {
+          "id": "yes",
+          "label": "Absolutely"
+        },
+        {
+          "id": "no",
+          "label": "Hard pass",
+          "evasive": true
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "Is Gyanankur smart or just lucky?",
+      "emoji": "🧠",
+      "style": "binary",
+      "options": [
+        {
+          "id": "smart",
+          "label": "Smart"
+        },
+        {
+          "id": "lucky",
+          "label": "Just lucky",
+          "evasive": true
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "Would you grab coffee with Gyanankur?",
+      "emoji": "☕",
+      "style": "binary",
+      "options": [
+        {
+          "id": "yes",
+          "label": "Yes"
+        },
+        {
+          "id": "pass",
+          "label": "Pass",
+          "evasive": true
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": "Is Gyanankur more chill or chaotic?",
+      "emoji": "🌊",
+      "style": "binary",
+      "options": [
+        {
+          "id": "chill",
+          "label": "Chill"
+        },
+        {
+          "id": "chaotic",
+          "label": "Chaotic",
+          "evasive": true
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": "Overall, is Gyanankur a win or a loss?",
+      "emoji": "✨",
+      "style": "binary",
+      "options": [
+        {
+          "id": "win",
+          "label": "Win"
+        },
+        {
+          "id": "loss",
+          "label": "Loss",
+          "evasive": true
+        }
+      ]
+    }
+  ],
+  "scoring": {
+    "q1:bad": {
+      "label": "Bad",
+      "positive": false
+    },
+    "q1:good": {
+      "label": "Good",
+      "positive": true
+    },
+    "q2:no": {
+      "label": "No",
+      "positive": false
+    },
+    "q2:yes": {
+      "label": "Yes",
+      "positive": true
+    },
+    "q3:no": {
+      "label": "No",
+      "positive": false
+    },
+    "q3:yes": {
+      "label": "Yes",
+      "positive": true
+    },
+    "q4:no": {
+      "label": "Hard pass",
+      "positive": false
+    },
+    "q4:yes": {
+      "label": "Absolutely",
+      "positive": true
+    },
+    "q5:lucky": {
+      "label": "Just lucky",
+      "positive": false
+    },
+    "q5:smart": {
+      "label": "Smart",
+      "positive": true
+    },
+    "q6:pass": {
+      "label": "Pass",
+      "positive": false
+    },
+    "q6:yes": {
+      "label": "Yes",
+      "positive": true
+    },
+    "q7:chaotic": {
+      "label": "Chaotic",
+      "positive": false
+    },
+    "q7:chill": {
+      "label": "Chill",
+      "positive": true
+    },
+    "q8:loss": {
+      "label": "Loss",
+      "positive": false
+    },
+    "q8:win": {
+      "label": "Win",
+      "positive": true
+    }
+  }
+}

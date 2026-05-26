@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>How Well Do You Know Me?</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/static/css/style.css" />
+</head>
+<body>
+  <div class="bg-glow bg-glow-1"></div>
+  <div class="bg-glow bg-glow-2"></div>
+  <div class="bg-grid"></div>
+
+  <main class="landing" id="landing">
+    <div class="landing-content">
+      <p class="eyebrow">Interactive challenge</p>
+      <h1 id="landing-title">How Well Do You Know Me?</h1>
+      <p class="subtitle" id="landing-subtitle">Think you've got me figured out? Prove it.</p>
+      <div class="host-chip">
+        <span class="host-dot"></span>
+        <span>Hosted by <strong id="host-name">Gyanankur</strong></span>
+      </div>
+    </div>
+  </main>
+
+  <!-- Floating play button -->
+  <button class="play-fab" id="play-fab" aria-label="Play game">
+    <span class="play-fab-ring"></span>
+    <span class="play-fab-label" id="play-label">Play</span>
+    <span class="play-fab-icon">▶</span>
+  </button>
+
+  <!-- Overlay + modal -->
+  <div class="overlay hidden" id="overlay" aria-hidden="true">
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <!-- Name entry banner -->
+      <section class="screen screen-name" id="screen-name">
+        <div class="banner">
+          <div class="banner-badge">✨ You're invited</div>
+          <h2 id="modal-title">Enter the Arena</h2>
+          <p class="banner-text">Drop your name below — <span id="banner-host">Gyanankur</span> is watching.</p>
+          <div class="name-field">
+            <input type="text" id="player-name" placeholder="Your name" maxlength="40" autocomplete="name" />
+            <button class="btn btn-primary" id="start-btn">Let's Go</button>
+          </div>
+          <p class="hint" id="name-error"></p>
+        </div>
+      </section>
+
+      <!-- Questions -->
+      <section class="screen screen-quiz hidden" id="screen-quiz">
+        <div class="quiz-header">
+          <div class="player-tag" id="player-tag"></div>
+          <div class="progress-wrap">
+            <div class="progress-bar" id="progress-bar"></div>
+          </div>
+          <p class="round-label" id="round-label">Question 1 of 8</p>
+        </div>
+
+        <div class="question-card" id="question-card">
+          <div class="question-emoji" id="question-emoji">☀️</div>
+          <h3 id="question-text"></h3>
+          <div class="options" id="options"></div>
+        </div>
+
+        <div class="quiz-footer">
+          <button class="btn btn-ghost hidden" id="back-btn">Back</button>
+          <button class="btn btn-primary" id="next-btn" disabled>Next</button>
+        </div>
+      </section>
+
+      <!-- Results -->
+      <section class="screen screen-result hidden" id="screen-result">
+        <div class="result-banner">
+          <div class="result-emoji" id="result-emoji">🎯</div>
+          <p class="result-tier" id="result-tier">Inner Circle</p>
+          <h2 id="result-score">7 / 8 positive vibes</h2>
+          <p class="result-message" id="result-message"></p>
+        </div>
+
+        <div class="breakdown" id="breakdown"></div>
+
+        <div class="result-actions">
+          <button class="btn btn-primary" id="replay-btn">Play Again</button>
+          <button class="btn btn-ghost" id="close-btn">Close</button>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <!-- Fullscreen dodge splash -->
+  <div class="dodge-splash hidden" id="dodge-splash" aria-hidden="true">
+    <div class="dodge-splash-content">
+      <span class="dodge-splash-emoji" id="dodge-splash-emoji">😏</span>
+      <p class="dodge-splash-text" id="dodge-splash-text">Nice try!</p>
+    </div>
+  </div>
+
+  <script src="/static/js/game.js"></script>
+</body>
+</html>

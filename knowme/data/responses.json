@@ -1,0 +1,158 @@
+[
+  {
+    "id": "0eb5caa8f029a04e",
+    "player": "Alex",
+    "score": 8,
+    "total": 8,
+    "tier": {
+      "title": "Mind Reader",
+      "message": "You basically live in my head rent-free. Impressive.",
+      "emoji": "🔮"
+    },
+    "breakdown": [
+      {
+        "questionId": "q1",
+        "questionText": "What's my ideal Saturday vibe?",
+        "emoji": "☀️",
+        "chosenOptionId": "a",
+        "chosenLabel": "Deep work on a side project",
+        "positive": false
+      },
+      {
+        "questionId": "q2",
+        "questionText": "Pick my go-to drink order",
+        "emoji": "☕",
+        "chosenOptionId": "b",
+        "chosenLabel": "Masala chai, always",
+        "positive": false
+      },
+      {
+        "questionId": "q3",
+        "questionText": "What would I binge on a lazy evening?",
+        "emoji": "🎬",
+        "chosenOptionId": "d",
+        "chosenLabel": "Anime / sci-fi",
+        "positive": false
+      },
+      {
+        "questionId": "q4",
+        "questionText": "My hidden superpower at work is…",
+        "emoji": "⚡",
+        "chosenOptionId": "a",
+        "chosenLabel": "Debugging things nobody else can",
+        "positive": false
+      },
+      {
+        "questionId": "q5",
+        "questionText": "Comfort food I'd pick every time",
+        "emoji": "🍜",
+        "chosenOptionId": "c",
+        "chosenLabel": "Street food chaat",
+        "positive": false
+      },
+      {
+        "questionId": "q6",
+        "questionText": "How do I recharge after a long week?",
+        "emoji": "🔋",
+        "chosenOptionId": "c",
+        "chosenLabel": "Walk + podcast + silence",
+        "positive": false
+      },
+      {
+        "questionId": "q7",
+        "questionText": "Something most people don't know about me",
+        "emoji": "🤫",
+        "chosenOptionId": "d",
+        "chosenLabel": "I can cook better than I let on",
+        "positive": false
+      },
+      {
+        "questionId": "q8",
+        "questionText": "If I won a free trip tomorrow, I'd pick…",
+        "emoji": "✈️",
+        "chosenOptionId": "a",
+        "chosenLabel": "Mountains — cold air, hot chai",
+        "positive": false
+      }
+    ],
+    "playedAt": "2026-05-26T09:31:32.699795Z"
+  },
+  {
+    "id": "5198defe0793190a",
+    "player": "test",
+    "score": 8,
+    "total": 8,
+    "tier": {
+      "title": "Certified Fan",
+      "message": "Okay wow — you actually think I'm pretty great. I'll remember this.",
+      "emoji": "👑"
+    },
+    "breakdown": [
+      {
+        "questionId": "q1",
+        "questionText": "How do you think Gyanankur is — a good person or a bad person?",
+        "emoji": "😇",
+        "chosenOptionId": "good",
+        "chosenLabel": "Good",
+        "positive": true
+      },
+      {
+        "questionId": "q2",
+        "questionText": "Would you trust Gyanankur with your secrets?",
+        "emoji": "🤫",
+        "chosenOptionId": "yes",
+        "chosenLabel": "Yes",
+        "positive": true
+      },
+      {
+        "questionId": "q3",
+        "questionText": "Is Gyanankur fun to hang out with?",
+        "emoji": "🎉",
+        "chosenOptionId": "yes",
+        "chosenLabel": "Yes",
+        "positive": true
+      },
+      {
+        "questionId": "q4",
+        "questionText": "Would you want Gyanankur on your team?",
+        "emoji": "🤝",
+        "chosenOptionId": "yes",
+        "chosenLabel": "Absolutely",
+        "positive": true
+      },
+      {
+        "questionId": "q5",
+        "questionText": "Is Gyanankur smart or just lucky?",
+        "emoji": "🧠",
+        "chosenOptionId": "smart",
+        "chosenLabel": "Smart",
+        "positive": true
+      },
+      {
+        "questionId": "q6",
+        "questionText": "Would you grab coffee with Gyanankur?",
+        "emoji": "☕",
+        "chosenOptionId": "yes",
+        "chosenLabel": "Yes",
+        "positive": true
+      },
+      {
+        "questionId": "q7",
+        "questionText": "Is Gyanankur more chill or chaotic?",
+        "emoji": "🌊",
+        "chosenOptionId": "chill",
+        "chosenLabel": "Chill",
+        "positive": true
+      },
+      {
+        "questionId": "q8",
+        "questionText": "Overall vibe check — is Gyanankur a W or an L?",
+        "emoji": "✨",
+        "chosenOptionId": "w",
+        "chosenLabel": "W",
+        "positive": true
+      }
+    ],
+    "playedAt": "2026-05-26T09:57:45.972217Z"
+  }
+]
